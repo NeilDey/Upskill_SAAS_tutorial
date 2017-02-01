@@ -33,6 +33,17 @@ h1, h2, h3 {
 .navbar {
   border : none;
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: orange;
+  }
+}
+
 .navbar-brand {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
